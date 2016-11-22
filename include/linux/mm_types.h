@@ -478,6 +478,7 @@ static inline const char __user *vma_get_anon_name(struct vm_area_struct *vma)
 
 	return vma->shared.anon_name;
 }
+
 #if defined(CONFIG_NUMA_BALANCING) || defined(CONFIG_COMPACTION)
 /*
  * Memory barriers to keep this state in sync are graciously provided by
